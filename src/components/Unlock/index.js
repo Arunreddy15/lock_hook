@@ -29,7 +29,7 @@ const Unlock = () => {
         )}
       </ImagesContainer>
       <Text>Your Device is {lockStatus ? 'Locked' : 'Unlocked'}</Text>
-      <Button type="button" onChange={onBtnClick}>
+      <Button type="button" onClick={onBtnClick}>
         {!lockStatus ? 'Lock' : 'Unlock'}
       </Button>
     </MainContainer>
